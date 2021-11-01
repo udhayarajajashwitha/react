@@ -17,7 +17,7 @@ export default function About(){
             <div className="aboutStyle">About Us</div>
             {count === 0 ? '' : <button onClick={decrement}>-</button> }            
             {count}
-            <button onClick={increment}>+</button>
+            <button onClick={increment}>+</button> 
         </div>
     )
 }
